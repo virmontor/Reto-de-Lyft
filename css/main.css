@@ -1,0 +1,100 @@
+
+/*vista splash*/
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.letter-xxs {
+  font-size: 2vh;
+}
+
+.letter-xs {
+  font-size: 4vh;
+}
+
+.letter-ms {
+  font-size: 3vh;
+}
+
+.down {
+  margin-top: 5vh;
+}
+
+.down-xs {
+  margin-top: 2vh;
+}
+
+/*vista signup*/
+
+.background-img {
+  background-image: url("../assets/images/lyft_mars.gif");
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.btn-sign {
+  background: transparent;
+  outline-color: 2px solid white;
+  color: white;
+  font-size: 3vh;
+  margin-top: 85vh;
+}
+
+/*vista register*/
+
+.glyphi-chevron {
+  color: pink;
+  font-size: 6vh;
+  background: transparent;
+  border: none;
+}
+
+.line  {
+    border-bottom: 1px solid #C6C8C6;
+}
+
+.btn-next {
+  background-color: #FF00B9;
+  color: white;
+}
+
+/*vista codigo*/
+
+.code-text {
+  font-size: 3vh;
+  color: black;
+  font-weight: 400;
+  text-align: center;
+  padding: 1vh
+}
+
+.code-container {
+  background-color: #E1E1E1;
+  border-radius: 1vh;
+  height: 6vh;
+}
+
+/*vista ingresar codigo*/
+.input-line {
+  border: none;
+  border-bottom: .4vh dashed purple;
+}
+
+.input-line::-webkit-input-placeholder {
+  text-align: center;
+}
+
+.background-img2 {
+  background-image: url("../assets/images/welcomelyft.gif");
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  background-color: #D0EDF7;
+  height: 100vh;
+}
