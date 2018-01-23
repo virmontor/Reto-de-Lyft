@@ -29,6 +29,30 @@ $("#phone-input").keyup(validatePhone);
     }
   };
 
+
+/* Función para generar codigo aleatorio y pintarlo en su contenedor*/
+var array = [];
+function myFunction (){
+  var x = Math.floor((Math.random()*10));
+  array.push(x);
+  return x
+}
+
+function codigoRandom () {
+  var codigo = ""
+  for (var i=0; i<3; i++){
+    codigo += myFunction();
+  }
+
+alert(codigo);
+
+}
+codigoRandom();
+console.log(array);
+
+
+
+
 /* Función para validar telefono y activar botón*/
 
   $("#next-view").click(function() {
