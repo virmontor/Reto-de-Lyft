@@ -44,16 +44,12 @@ function codigoRandom () {
     codigo += myFunction();
   }
 
-alert(codigo);
+$("#code").text(codigo);
 
 }
 codigoRandom();
-console.log(array);
 
-
-
-
-/* Función para validar telefono y activar botón*/
+/* Función para pasar a vista de entrega de codigo*/
 
   $("#next-view").click(function() {
     setTimeout(function() {
@@ -62,6 +58,16 @@ console.log(array);
     }, 1000);
   });
 
-/* Función para generar codigo aleatorio*/
+/* Función para pasar a verificacion de codigo*/
+
+$("#btn-ok").click(function() {
+  setTimeout(function() {
+    $("#code-view").fadeOut(500);
+    $("#inputcode-view").show();
+  }, 1000);
+});
+
+/* Función para comparar codigo*/
+
 
 });
